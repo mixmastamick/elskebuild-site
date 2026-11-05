@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ballast Privacy Policy</title>
+  <meta name="description" content="How Ballast: Capacity Planner collects, uses and protects your information.">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main>
+  <p class="eyebrow">Ballast: Capacity Planner</p>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Last updated 2 November 2026</p>
+
+  <p>Ballast is a task app that plans your day around how much capacity you have. It is made by Michael Fuglsang ("I", "me", "Ballast"). This policy explains what information the app handles, who it is shared with, and the choices you have. I have tried to keep it short and plain.</p>
+
+  <div class="callout">
+    <p><strong>The short version:</strong> your tasks and journal belong to you, are stored in your own account, and are never sold or used for advertising. There is no tracking and no ad network in the app. You can delete your account and all of its data from inside the app at any time.</p>
+  </div>
+
+  <h2>Information Ballast stores</h2>
+  <ul>
+    <li><strong>Your email address.</strong> Used only to sign you in with a one-time link and to identify your account.</li>
+    <li><strong>What you create in the app.</strong> Tasks, projects, labels, reminders, notes, daily capacity check-ins, skipped-task reasons, and journal entries. This is stored in your account so it is available on all your devices.</li>
+    <li><strong>Preferences</strong> such as whether you have seen the intro tour.</li>
+  </ul>
+  <p>Your data is stored with Supabase, my database and sign-in provider, and is protected so that each account can only read and write its own rows.</p>
+
+  <h2>Voice input</h2>
+  <p>If you use the microphone button to add a task, your speech is converted to text using the speech recognition built into iOS. Apple may process that audio on its servers, depending on your device and settings, under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>. Ballast does not store your audio.</p>
+  <p>The resulting <em>text</em> is sent through a Ballast server function to Anthropic, which provides an AI model that works out the task title, effort and any reminder time from what you said. Only that text, and the current date and time so that "tomorrow at 9" can be understood, are sent. It does not include your email address or the rest of your data. Anthropic acts as a service provider for this step.</p>
+
+  <h2>Pattern notes</h2>
+  <p>The optional "pattern notes" in Settings, such as which kinds of tasks tend to get skipped on low-capacity days, are worked out entirely on your device from your own task history. Nothing is sent anywhere to produce them, and you can turn them off.</p>
+
+  <h2>Calendar</h2>
+  <p>If you choose to import calendar events as tasks, Ballast asks for read-only access to your calendar. Events are read on your device when you ask. Only items that you choose to turn into tasks are saved to your account. Ballast never changes your calendar.</p>
+
+  <h2>Notifications</h2>
+  <p>Reminders are scheduled locally on your device. Ballast does not use push notification servers and does not collect a notification token.</p>
+
+  <h2>Subscription and payments</h2>
+  <p>Ballast is a paid subscription, billed and managed by Apple through your Apple ID. I never see your payment card or Apple account details. I use RevenueCat to check whether your subscription is active. RevenueCat receives your anonymous Ballast account ID, your purchase and subscription status, and basic device and app information, and acts as a service provider. See <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a>.</p>
+
+  <h2>What Ballast does not do</h2>
+  <ul>
+    <li>No advertising, and no sharing or selling of your information for advertising.</li>
+    <li>No third-party analytics or cross-app tracking.</li>
+    <li>No access to your contacts, photos, or location.</li>
+  </ul>
+
+  <h2>Who handles your data</h2>
+  <ul>
+    <li><strong>Supabase</strong> hosts your account and content.</li>
+    <li><strong>Anthropic</strong> receives the text of voice-added tasks (see above).</li>
+    <li><strong>RevenueCat</strong> handles subscription status.</li>
+    <li><strong>Resend</strong> delivers your sign-in email.</li>
+    <li><strong>Apple</strong> provides billing, speech recognition and App Store distribution.</li>
+  </ul>
+  <p>These providers only process data to deliver their service to Ballast. I may also disclose information if the law requires it.</p>
+
+  <h2>Keeping and deleting your data</h2>
+  <p>Your data is kept while your account exists. To delete it, open <strong>Settings → Delete account</strong> in the app. This permanently removes your account and everything in it, including tasks, projects, labels, journal entries and preferences. It cannot be undone. Deleting your account does not cancel your subscription, which you manage in iOS Settings → your name → Subscriptions.</p>
+  <p>If you cannot use the app, email me at the address below and I will delete your account for you.</p>
+
+  <h2>Your rights</h2>
+  <p>Depending on where you live, you may have the right to access, correct, export or delete your personal information, or to object to how it is used. Most of this you can do yourself in the app. For anything else, contact me and I will respond within a reasonable time.</p>
+
+  <h2>Children</h2>
+  <p>Ballast is not directed at children under 13, and I do not knowingly collect information from them. If you believe a child has created an account, contact me and I will delete it.</p>
+
+  <h2>Security</h2>
+  <p>Data is encrypted in transit, and each account can only access its own rows. No system is perfectly secure, but I take reasonable steps to protect your information.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If I change this policy in a meaningful way I will update the date above and, where appropriate, tell you in the app.</p>
+
+  <h2>Contact</h2>
+  <p>Michael Fuglsang<br>Email: <a href="mailto:support@elskebuild.com">support@elskebuild.com</a></p>
+
+  <footer>
+    <a href="/terms/">Terms of Use</a>
+  </footer>
+</main>
+</body>
+</html>
