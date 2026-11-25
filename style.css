@@ -74,6 +74,14 @@ a {
   margin: 0 0 0.5rem;
 }
 
+.app-icon {
+  display: block;
+  width: 96px;
+  height: 96px;
+  margin: 0 0 1.25rem;
+  border-radius: 22px;
+}
+
 .download {
   display: inline-block;
   padding: 0.7rem 1.4rem;
